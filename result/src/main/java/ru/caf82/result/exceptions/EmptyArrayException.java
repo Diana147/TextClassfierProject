@@ -3,31 +3,31 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ru.caf82.HomeWork.homework3.exceptions;
+package ru.caf82.result.exceptions;
 
 /**
  *
- * @author prask_000
+ * @author 1
  */
 public class EmptyArrayException extends Exception {
-    EmptyArrayException() {
-        super();
+    
+    private String message;
+    private Throwable cause;
+    
+    public EmptyArrayException () {
+        
     }
     
-    EmptyArrayException(Throwable cause) {
-    super(cause);
+    public EmptyArrayException (String message) {
+        this.message = message;
     }
     
-    EmptyArrayException(String message){
-    super(message);
+    public EmptyArrayException (Throwable cause) {
+        this.cause = cause;
     }
     
-     EmptyArrayException(String message, Throwable cause){
-     super(message, cause);
-     }
-    
-    
-   
-}  
-
-
+    public EmptyArrayException (String message, Throwable cause) {
+        this.message = message;
+        this.cause = cause;
+    }
+}

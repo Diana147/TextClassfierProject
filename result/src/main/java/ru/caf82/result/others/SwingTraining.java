@@ -7,7 +7,7 @@ package ru.caf82.result.others;
 
 /**
  *
- * @author prask_000
+ * @author 1
  */
 public class SwingTraining {
     

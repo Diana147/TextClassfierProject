@@ -7,8 +7,8 @@ package ru.caf82.result.machinelearning.models;
 
 /**
  *
- * @author prask_000
+ * @author 1
  */
-public class NaiveBayes extends AbstractModel{
+public class NaiveBayes extends AbstractModel {
     
 }

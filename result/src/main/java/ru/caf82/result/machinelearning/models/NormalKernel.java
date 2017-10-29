@@ -7,8 +7,8 @@ package ru.caf82.result.machinelearning.models;
 
 /**
  *
- * @author prask_000
+ * @author 1
  */
-public class NormalKernel extends KNeighbourhood {
+public class NormalKernel extends KNeighbourhood{
     
 }

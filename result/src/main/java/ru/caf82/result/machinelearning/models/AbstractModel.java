@@ -5,10 +5,12 @@
  */
 package ru.caf82.result.machinelearning.models;
 
+import java.io.Serializable;
+
 /**
  *
- * @author prask_000
+ * @author 1
  */
-public class AbstractModel {
+public abstract class AbstractModel implements Serializable {
     
 }
